@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyao Ma's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #f4f4f4;
+            color: #333;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ccc 1px solid;
+        }
+        header a {
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #333;
+            font-weight: bold;
+        }
+        .cv {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Luyao Ma</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="cv.html">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cv container">
+        <!-- 你可以调整embed标签的宽度和高度以适应你的设计 -->
+        <embed src="LuyaoMa_resume.pdf" type="application/pdf" width="100%" height="600px" />
+        <!-- 如果你更喜欢使用iframe，可以像这样替换embed标签 -->
+        <!-- <iframe src="LuyaoMa_resume.pdf" width="100%" height="600px"></iframe> -->
+    </div>
+</body>
+</html>
