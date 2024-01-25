@@ -59,10 +59,11 @@
         }
         .about img {
             float: left;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-right: 20px;
+            width: 1344px; /* Adjust the width to maintain 3:4 ratio, e.g., if height is 300px, width should be 225px */
+            height: 1792px; /* Set a fixed height */
+            object-fit: cover; /* This will ensure the image covers the area without being squeezed */
+/*             border-radius: 50%; */
+/*             margin-right: 20px; */
         }
         .about p {
             text-align: justify;
